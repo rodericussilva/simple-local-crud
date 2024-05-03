@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <form class="form">
+        <h4>Cadastrar</h4>
+        <input type="text" name="name" id="name" placeholder="Nome">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <button type="button" onclick="saveData()">Enviar</button>
+    </form>
+
+    <div id="displayData"></div>
+
+    <form class="form">
+        <h4>Remover pelo email</h4>
+        <input type="email" name="removeEmail" id="removeEmail" placeholder="Email">
+        <button type="button" onclick="removeData()">Deletar</button>
+    </form>
+
+    <form class="form">
+        <h4>Editar cadastro</h4>
+        <input type="email" name="editEmail" id="editEmail" placeholder="Email">
+        <input type="text" name="editName" id="editName" placeholder="Novo nome">
+        <input type="email" name="editNewEmail" id="editNewEmail" placeholder="Novo email">
+        <button type="button" onclick="editData()">Editar</button>
+    </form>
+
+    <script src="src/index.js"></script>
+</body>
+</html>

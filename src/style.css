@@ -1,0 +1,56 @@
+
+body {
+    margin: 0px;
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #1F4E48;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+form {
+    border-style: double;
+    border-color: black;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    background-color: #5D743C;
+    
+}
+
+div {
+    display: block;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+    width: 24rem;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 25px;
+    background-color: #5D743C;
+    color: #FFB955;
+}
+
+h4 {
+    color: #FFB955;
+}
+
+@media only screen and (max-width: 440px) {
+    form, div {
+        width: 80%;
+    }
+}
