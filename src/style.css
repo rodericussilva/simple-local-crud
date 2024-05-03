@@ -12,6 +12,7 @@ input {
     margin: auto;
     margin-bottom: 10px;
     width: 70%;
+    background-color: white;
 }
 
 button {
