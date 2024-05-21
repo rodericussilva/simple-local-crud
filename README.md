@@ -1,19 +1,19 @@
 # Simple Local CRUD
-Este é um projeto simples de CRUD (Create, Read, Update, Delete) usando HTML, CSS e JavaScript. Ele armazena dados localmente no navegador usando o localStorage.
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) usando HTML, CSS e JavaScript. Ele armazena dados localmente no navegador usando o localStorage. [Link](https://rodericussilva.github.io/simple-local-crud/) para teste
 ## Índice
-- [Funcionalidades]()
-- [Pré-requisitos]()
-- [Como usar]()
-- [Estrutura do Projeto]()
-- [Contato]()
-# Funcionalidades
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Como usar](#como-usar)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contato](#contato)
+## Funcionalidades
 - Cadastrar: Adiciona novos registros com nome e email.
 - Visualizar: Exibe todos os registros armazenados.
 - Remover: Exclui registros pelo email.
 - Editar: Atualiza o nome e o email de um registro existente.
-# Pré-requisitos
+## Pré-requisitos
 Para executar este projeto, você só precisa de um navegador web moderno.
-# Como usar
+## Como usar
 1. Clone o repositório:
 ```Bash
 git clone https://github.com/seu-usuario/simple-local-crud.git
@@ -24,8 +24,9 @@ cd simple-local-crud
 ```
 3. Abra o arquivo index.html no seu navegador.
 4. Utilize os formulários na página para adicionar, visualizar, remover e editar registros.
-# Estrutura do Projeto
-```simple-local-crud/
+### Estrutura do Projeto
+```plaintext
+simple-local-crud/
 │
 ├── src/
 │   ├── index.js      # Arquivo JavaScript com as funções CRUD
@@ -34,5 +35,5 @@ cd simple-local-crud
 ├── index.html        # Arquivo HTML principal
 ├── README.md         # Documentação do projeto
 ```
-# Contato
+## Contato
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para me contatar em rodericus@alu.ufc.br
