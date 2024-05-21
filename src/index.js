@@ -49,7 +49,11 @@ function displayData() {
 
 function showDatas() {
     let getData = document.getElementById('displayData');
-    return getData.style.display = 'block';
+    let btnHide = document.getElementById('btnHide');
+    
+    let display = getData.style.display = 'block';
+    let btn = btnHide.style.display = 'block';
+    return display, btn;
 }
 
 function hideDatas() {
