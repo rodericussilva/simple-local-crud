@@ -47,6 +47,16 @@ function displayData() {
     clearFields();
 }
 
+function showDatas() {
+    let getData = document.getElementById('displayData');
+    return getData.style.display = 'block';
+}
+
+function hideDatas() {
+    let hideData = document.getElementById('displayData');
+    return hideData.style.display = 'none';
+}
+
 function clearFields() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
