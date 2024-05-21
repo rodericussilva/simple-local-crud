@@ -33,8 +33,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     width: 25rem;
-    background-color: #5D743C;
-    
+    background-color: #5D743C;   
 }
 
 div {
@@ -49,6 +48,7 @@ div {
     line-height: 25px;
     background-color: #5D743C;
     color: #FFB955;
+    margin-bottom: 10px;
 }
 
 h4 {
