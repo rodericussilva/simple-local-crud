@@ -49,10 +49,10 @@ function displayData() {
 
 function showDatas() {
     let getData = document.getElementById('displayData');
-    let btnHide = document.getElementById('btnHide');
+    //let btnHide = document.getElementById('btnHide');
     
     let display = getData.style.display = 'block';
-    let btn = btnHide.style.display = 'inline';
+    //let btn = btnHide.style.display = 'inline';
     return display, btn;
 }
 
