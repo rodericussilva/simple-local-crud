@@ -52,7 +52,7 @@ function showDatas() {
     let btnHide = document.getElementById('btnHide');
     
     let display = getData.style.display = 'block';
-    let btn = btnHide.style.display = 'block';
+    let btn = btnHide.style.display = 'inline';
     return display, btn;
 }
 
